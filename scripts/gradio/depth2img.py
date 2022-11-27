@@ -181,4 +181,4 @@ with block:
                      input_image, prompt, ddim_steps, num_samples, scale, seed, eta, strength], outputs=[gallery])
 
 
-block.launch()
+block.launch(share=True)
